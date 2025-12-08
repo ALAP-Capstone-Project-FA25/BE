@@ -1,0 +1,6 @@
+@ALAP.API_HostAddress = http://localhost:5183
+
+GET {{ALAP.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
