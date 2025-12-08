@@ -1,6 +1,6 @@
 ﻿namespace Base.Utils
 {
-    public class Class1
+    public class ApiClient
     {
 
     }
