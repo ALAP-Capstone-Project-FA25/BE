@@ -9,7 +9,6 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,6 +65,26 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+<<<<<<< HEAD
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentLayout.backup.json",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\.vs\\FA25SE228_ALAP_BE_CapstoneProject\\v17\\DocumentLayout.backup.json",
+              "RelativeDocumentMoniker": ".vs\\FA25SE228_ALAP_BE_CapstoneProject\\v17\\DocumentLayout.backup.json",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\.vs\\FA25SE228_ALAP_BE_CapstoneProject\\v17\\DocumentLayout.backup.json",
+              "RelativeToolTip": ".vs\\FA25SE228_ALAP_BE_CapstoneProject\\v17\\DocumentLayout.backup.json",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T13:58:20.443Z",
+              "EditorCaption": ""
+            },
+            {
+>>>>>>> Phi
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         },
