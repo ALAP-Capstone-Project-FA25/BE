@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ALAP.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+057569abfc051a1eb5c7306ffe3855e03269eb8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd21902920227c0bc17afd8b39e0b1ca48991ca7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ALAP.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ALAP.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
