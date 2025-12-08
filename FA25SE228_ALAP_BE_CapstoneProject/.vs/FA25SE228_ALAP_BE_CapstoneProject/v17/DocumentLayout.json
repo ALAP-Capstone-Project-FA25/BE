@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C83896B2-8E2A-4E19-9124-AAE1FEB7E3B8}|ALAP.Entity\\ALAP.Entity.csproj|e:\\study\\fptu\\ky 9\\sep490\\fall2025\\project\\mainproject\\be\\fa25se228_alap_be_capstoneproject\\alap.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83896B2-8E2A-4E19-9124-AAE1FEB7E3B8}|ALAP.Entity\\ALAP.Entity.csproj|solutionrelative:alap.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8C7203-A615-4BBB-A574-30C6BA3BB801}|ALAP.DAL\\ALAP.DAL.csproj|e:\\study\\fptu\\ky 9\\sep490\\fall2025\\project\\mainproject\\be\\fa25se228_alap_be_capstoneproject\\alap.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8C7203-A615-4BBB-A574-30C6BA3BB801}|ALAP.DAL\\ALAP.DAL.csproj|solutionrelative:alap.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC33861-6AE8-4235-A18D-E5E1A47F741E}|ALAP.BLL\\ALAP.BLL.csproj|e:\\study\\fptu\\ky 9\\sep490\\fall2025\\project\\mainproject\\be\\fa25se228_alap_be_capstoneproject\\alap.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC33861-6AE8-4235-A18D-E5E1A47F741E}|ALAP.BLL\\ALAP.BLL.csproj|solutionrelative:alap.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B36601A-282A-481B-BF72-0BF0F63B05CF}|Base.Utils\\Base.Utils.csproj|e:\\study\\fptu\\ky 9\\sep490\\fall2025\\project\\mainproject\\be\\fa25se228_alap_be_capstoneproject\\base.utils\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B36601A-282A-481B-BF72-0BF0F63B05CF}|Base.Utils\\Base.Utils.csproj|solutionrelative:base.utils\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB2BB797-8154-4B39-811D-2FDCA7D32160}|Base.Common\\Base.Common.csproj|e:\\study\\fptu\\ky 9\\sep490\\fall2025\\project\\mainproject\\be\\fa25se228_alap_be_capstoneproject\\base.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB2BB797-8154-4B39-811D-2FDCA7D32160}|Base.Common\\Base.Common.csproj|solutionrelative:base.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CD1D2-B330-41E2-BBBE-5F4D7F772669}|Base.API\\Base.API.csproj|e:\\study\\fptu\\ky 9\\sep490\\fall2025\\project\\mainproject\\be\\fa25se228_alap_be_capstoneproject\\base.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{648CD1D2-B330-41E2-BBBE-5F4D7F772669}|Base.API\\Base.API.csproj|solutionrelative:base.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,6 +91,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\ALAP.Entity\\Class1.cs",
+              "RelativeDocumentMoniker": "ALAP.Entity\\Class1.cs",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\ALAP.Entity\\Class1.cs",
+              "RelativeToolTip": "ALAP.Entity\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:41:20.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\ALAP.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "ALAP.DAL\\Class1.cs",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\ALAP.DAL\\Class1.cs",
+              "RelativeToolTip": "ALAP.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:41:12.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\ALAP.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "ALAP.BLL\\Class1.cs",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\ALAP.BLL\\Class1.cs",
+              "RelativeToolTip": "ALAP.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:41:03.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\Base.Utils\\Class1.cs",
+              "RelativeDocumentMoniker": "Base.Utils\\Class1.cs",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\Base.Utils\\Class1.cs",
+              "RelativeToolTip": "Base.Utils\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:39:30.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\Base.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "Base.Common\\Class1.cs",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\Base.Common\\Class1.cs",
+              "RelativeToolTip": "Base.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:39:23.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\Base.API\\Class1.cs",
+              "RelativeDocumentMoniker": "Base.API\\Class1.cs",
+              "ToolTip": "E:\\Study\\FPTU\\Ky 9\\SEP490\\FALL2025\\Project\\MainProject\\BE\\FA25SE228_ALAP_BE_CapstoneProject\\Base.API\\Class1.cs",
+              "RelativeToolTip": "Base.API\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:39:13.499Z",
+              "EditorCaption": ""
             }
           ]
         },
