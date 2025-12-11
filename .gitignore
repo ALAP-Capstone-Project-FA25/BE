@@ -1,0 +1,45 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+
+# Visual Studio 2019/2022 cache/options directory
+.vs/
+.vscode/
+
+# Others
+*.db
+*.cache
+*.log
+*.tmp
+*.pdb
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Auto-generated files
+*.dll
+*.exe
+*.appx
+*.appxrecipe
+
+# ASP.NET files
+project.lock.json
+project.fragment.lock.json
+
+# Others
+_ReSharper*/
