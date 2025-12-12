@@ -1,7 +1,7 @@
 ﻿namespace Base.Common
 {
-    public class RoleConstant
+    public static class RoleConstant
     {
-
+        public const string ADMIN = "ADMIN";
     }
 }

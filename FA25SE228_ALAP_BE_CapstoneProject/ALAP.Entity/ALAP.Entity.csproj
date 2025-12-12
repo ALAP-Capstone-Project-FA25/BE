@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Base.Common\Base.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="DTO\Payos\" />
+	</ItemGroup>
+	
 </Project>
