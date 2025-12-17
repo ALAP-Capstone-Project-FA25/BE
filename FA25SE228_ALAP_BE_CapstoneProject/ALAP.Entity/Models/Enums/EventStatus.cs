@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ALAP.Entity.Models.Enums
+{
+    public enum EventStatus
+    {
+        IN_COMING = 1,
+        IN_PROGRESS = 2,
+        COMPLETED = 3,
+        CANCELLED = 4
+    }
+}
