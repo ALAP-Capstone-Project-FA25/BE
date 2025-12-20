@@ -1,6 +1,6 @@
 ﻿namespace ALAP.BLL
 {
-    public class Class1
+    public class AppBaseBizLogic
     {
 
     }
