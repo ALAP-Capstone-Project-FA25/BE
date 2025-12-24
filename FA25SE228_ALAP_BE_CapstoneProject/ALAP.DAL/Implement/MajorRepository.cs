@@ -1,12 +1,9 @@
-using App.DAL;
-using App.DAL.DataBase;
-using App.DAL.Interface;
-using App.Entity.Models;
-using App.Entity.Models.Wapper;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+using ALAP.DAL;
+using ALAP.DAL.Database;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Wapper;
+using ALAP.DAL.Interface;
 
 namespace App.DAL.Implement
 {

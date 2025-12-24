@@ -1,7 +1,8 @@
-using App.DAL.DataBase;
-using App.DAL.Interface;
-using App.Entity.Models;
-using App.Entity.Models.Wapper;
+using ALAP.DAL;
+using ALAP.DAL.Database;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Wapper;
+using ALAPv.DAL.Interface;
 using Microsoft.EntityFrameworkCore;
 
 namespace App.DAL.Implement
