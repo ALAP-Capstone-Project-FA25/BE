@@ -1,11 +1,6 @@
-using App.Entity.DTO.Response;
-using App.Entity.Models;
-using App.Entity.Models.Wapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ALAP.Entity.DTO.Response;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Wapper;
 
 namespace App.DAL.Interface
 {

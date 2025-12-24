@@ -1,6 +1,6 @@
 ﻿using ALAP.Entity.Models.Enums;
 
-namespace ALAPALAP.Entity.DTO.Response
+namespace ALAP.Entity.DTO.Response
 {
     public class GetUserProfile
     {

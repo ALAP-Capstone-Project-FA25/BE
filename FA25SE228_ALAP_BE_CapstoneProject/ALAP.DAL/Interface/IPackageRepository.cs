@@ -1,7 +1,7 @@
-using App.Entity.Models;
-using App.Entity.Models.Wapper;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Wapper;
 
-namespace App.DAL.Interface
+namespace ALAPv.DAL.Interface
 {
     public interface IPackageRepository
     {

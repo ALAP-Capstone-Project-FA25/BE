@@ -1,11 +1,6 @@
-﻿using App.Entity.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ALAP.Entity.Models;
 
-namespace App.DAL.Interface
+namespace ALAP.DAL.Interface
 {
     public interface IKGRepository
     {

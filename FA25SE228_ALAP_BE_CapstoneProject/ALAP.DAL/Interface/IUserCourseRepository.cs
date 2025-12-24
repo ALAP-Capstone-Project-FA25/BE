@@ -1,8 +1,6 @@
-using App.Entity.Models;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+using ALAP.Entity.Models;
 
-namespace App.DAL.Interface
+namespace ALAP.DAL.Interface
 {
     public interface IUserCourseRepository
     {
