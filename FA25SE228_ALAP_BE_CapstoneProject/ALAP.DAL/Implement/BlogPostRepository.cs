@@ -1,18 +1,13 @@
-using App.DAL.DataBase;
-using App.DAL.Interface;
-using App.Entity.DTO.Request;
-using App.Entity.Models;
-using App.Entity.Models.Enums;
-using App.Entity.Models.Wapper;
+using ALAP.DAL.DataBase;
+using ALAP.DAL.Interface;
+using ALAP.Entity.DTO.Request;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Enums;
+using ALAP.Entity.Models.Wapper;
 using Base.Common;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class BlogPostRepository : AppBaseRepository, IBlogPostRepository
     {

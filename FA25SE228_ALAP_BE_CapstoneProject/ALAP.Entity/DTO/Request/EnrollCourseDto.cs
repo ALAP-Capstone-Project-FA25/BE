@@ -1,4 +1,4 @@
-namespace App.Entity.DTO.Request
+namespace ALAP.Entity.DTO.Request
 {
     public class EnrollCourseDto
     {

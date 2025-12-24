@@ -1,9 +1,8 @@
-using App.Entity.DTO.Request;
-using App.Entity.Models;
-using App.Entity.Models.Wapper;
-using System.Threading.Tasks;
+using ALAP.Entity.DTO.Request;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Wapper;
 
-namespace App.DAL.Interface
+namespace ALAP.DAL.Interface
 {
     public interface IBlogPostRepository
     {

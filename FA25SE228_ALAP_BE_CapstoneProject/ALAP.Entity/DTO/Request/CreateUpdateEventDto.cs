@@ -1,6 +1,6 @@
 using ALAP.Entity.Models.Enums;
 
-namespace App.Entity.DTO.Request
+namespace ALAP.Entity.DTO.Request
 {
     public class CreateUpdateEventDto
     {
