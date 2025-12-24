@@ -2,15 +2,10 @@
 using MailKit.Security;
 using Microsoft.Extensions.Options;
 using MimeKit;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MailKit.Net.Smtp;
-using App.Entity.Models.Enums;
-using Microsoft.Win32;
 using Microsoft.Extensions.Logging;
+using ALAP.DAL.Interface;
+using ALAP.Entity.Models.Enums;
 
 
 namespace App.DAL.Implement

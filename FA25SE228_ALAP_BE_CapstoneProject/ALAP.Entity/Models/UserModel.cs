@@ -44,6 +44,9 @@ namespace ALAP.Entity.Models
         [StringLength(255, ErrorMessage = "Province must be less than 100 characters.")]
         public string? Address { get; set; }
 
+        [StringLength(1000, ErrorMessage = "Bio must be less than 1000 characters.")]
+        public string? Bio { get; set; }
+
         public UserRole Role { get; set; } = UserRole.USER;
 
         public string? GoogleId { get; set; } = string.Empty;
