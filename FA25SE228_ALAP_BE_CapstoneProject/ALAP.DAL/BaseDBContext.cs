@@ -4,7 +4,7 @@ using ALAP.Entity.Models;
 using ALAP.Entity.Models.Enums;
 using Microsoft.EntityFrameworkCore;
 
-namespace ALAP.DAL
+namespace ALAP.DAL.Database
 {
     public class BaseDBContext : DbContext
     {

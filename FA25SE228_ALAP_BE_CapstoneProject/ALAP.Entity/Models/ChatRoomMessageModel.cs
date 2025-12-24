@@ -1,15 +1,6 @@
 ﻿using ALAP.Entity.Common;
 using ALAP.Entity.Models.Enums;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ALAP.Entity.Models
 {
