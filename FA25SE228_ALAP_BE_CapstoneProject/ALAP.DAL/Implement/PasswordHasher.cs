@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using App.DAL.Interface;
+﻿using ALAP.DAL.Interface;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class PasswordHasher : IPasswordHasher
     {

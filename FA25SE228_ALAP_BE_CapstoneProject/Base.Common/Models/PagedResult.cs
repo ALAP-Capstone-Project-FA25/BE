@@ -1,4 +1,4 @@
-﻿namespace TFU.Common.Models
+﻿namespace ALAP.Entity.Models.Wapper
 {
     public class PagedResult<T>
     {
