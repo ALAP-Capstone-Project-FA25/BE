@@ -1,8 +1,7 @@
-using App.Entity.Models;
-using App.Entity.Models.Wapper;
-using System.Threading.Tasks;
+using ALAP.Entity.Models;
+using ALAP.Entity.Models.Wapper;
 
-namespace App.DAL.Interface
+namespace ALAP.DAL.Interface
 {
     public interface IChatRoomMessageRepository
     {

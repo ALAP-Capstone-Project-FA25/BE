@@ -2,7 +2,7 @@
 using ALAP.DAL.Database;
 using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
-using App.DAL.Interface;
+using ALAP.DAL.Interface;
 using Microsoft.EntityFrameworkCore;
 
 
