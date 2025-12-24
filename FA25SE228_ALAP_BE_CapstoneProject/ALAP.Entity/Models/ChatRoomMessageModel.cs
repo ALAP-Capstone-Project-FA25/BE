@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     public class ChatRoomMessageModel : BaseEntity
     {

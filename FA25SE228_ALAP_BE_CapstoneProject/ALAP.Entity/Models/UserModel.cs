@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using ALAP.Entity.Common;
 using ALAP.Entity.Models.Enums;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     [Table("users")]
     public class UserModel : BaseEntity

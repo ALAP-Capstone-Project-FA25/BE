@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào mừng đến với ALAP</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #f97316;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #f97316;
+            margin-bottom: 10px;
+        }
+        .welcome-title {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .credentials-box {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .credential-item {
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .credential-item:last-child {
+            border-bottom: none;
+        }
+        .credential-label {
+            font-weight: bold;
+            color: #495057;
+            display: inline-block;
+            width: 100px;
+        }
+        .credential-value {
+            color: #212529;
+            font-family: 'Courier New', monospace;
+            background: #fff;
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid #ced4da;
+        }
+        .login-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #f97316, #ea580c);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+        .login-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(249, 115, 22, 0.4);
+        }
+        .info-section {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .warning-section {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🎓 ALAP</div>
+            <div style="color: #6c757d;">Advanced Learning & Academic Platform</div>
+        </div>
+
+        <h2 class="welcome-title">Chào mừng {{SPEAKER_NAME}}!</h2>
+        
+        <p>Chúng tôi rất vui mừng chào đón bạn gia nhập đội ngũ Speaker của ALAP - nền tảng học tập trực tuyến hàng đầu cho các khóa học AP.</p>
+
+        <div class="info-section">
+            <h3>🎯 Vai trò của bạn tại ALAP</h3>
+            <p>Với tư cách là <strong>Speaker</strong>, bạn sẽ có cơ hội:</p>
+            <ul>
+                <li>Chia sẻ kiến thức và kinh nghiệm với học sinh</li>
+                <li>Tham gia các sự kiện, hội thảo trực tuyến</li>
+                <li>Hướng dẫn và tư vấn cho học sinh trong các lĩnh vực chuyên môn</li>
+                <li>Đóng góp vào việc phát triển nội dung giáo dục chất lượng cao</li>
+            </ul>
+        </div>
+
+        <h3>🔐 Thông tin đăng nhập</h3>
+        <div class="credentials-box">
+            <div class="credential-item">
+                <span class="credential-label">Email:</span>
+                <span class="credential-value">{{EMAIL}}</span>
+            </div>
+            <div class="credential-item">
+                <span class="credential-label">Mật khẩu:</span>
+                <span class="credential-value">{{PASSWORD}}</span>
+            </div>
+        </div>
+
+        <div class="warning-section">
+            <h4>⚠️ Bảo mật tài khoản</h4>
+            <p><strong>Quan trọng:</strong> Vui lòng đổi mật khẩu ngay sau lần đăng nhập đầu tiên để đảm bảo bảo mật tài khoản.</p>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="{{LOGIN_URL}}/admin/login" class="login-button">
+                🚀 Đăng nhập ngay
+            </a>
+        </div>
+
+        <div class="info-section">
+            <h3>📚 Bước tiếp theo</h3>
+            <ol>
+                <li><strong>Đăng nhập</strong> vào hệ thống bằng thông tin trên</li>
+                <li><strong>Cập nhật profile</strong> với thông tin chi tiết về bản thân</li>
+                <li><strong>Khám phá</strong> các tính năng dành cho Speaker</li>
+                <li><strong>Liên hệ</strong> với team để được hướng dẫn chi tiết</li>
+            </ol>
+        </div>
+
+        <div class="contact-info">
+            <h4>📞 Hỗ trợ & Liên hệ</h4>
+            <p>Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi:</p>
+            <ul>
+                <li>📧 Email: support@alap.fptzone.site</li>
+                <li>🌐 Website: https://alap.fptzone.site</li>
+                <li>💬 Hỗ trợ trực tuyến: Có sẵn 24/7</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Cảm ơn bạn đã tham gia cùng ALAP!</p>
+            <p>Chúc bạn có những trải nghiệm tuyệt vời với vai trò Speaker.</p>
+            <hr style="margin: 20px 0; border: none; border-top: 1px solid #e9ecef;">
+            <p style="font-size: 12px; color: #adb5bd;">
+                © 2024 ALAP - Advanced Learning & Academic Platform<br>
+                Email này được gửi tự động, vui lòng không reply.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

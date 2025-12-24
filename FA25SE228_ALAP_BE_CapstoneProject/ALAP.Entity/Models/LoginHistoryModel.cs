@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     [Table("login_history")]
     public class LoginHistoryModel : BaseEntity

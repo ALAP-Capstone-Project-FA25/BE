@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     [Table("EntryTestQuestions")]
     public class EntryTestQuestionModel : BaseEntity

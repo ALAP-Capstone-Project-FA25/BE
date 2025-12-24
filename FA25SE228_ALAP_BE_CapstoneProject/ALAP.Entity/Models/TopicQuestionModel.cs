@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     public class TopicQuestionModel : BaseEntity
     {

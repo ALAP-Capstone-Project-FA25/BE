@@ -40,7 +40,7 @@ namespace ALAP.BLL.BackgroundServices
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _logger.LogInformation("EmailSenderWorkerService đã khởi động. MaxConcurrency: {MaxConcurrency}", 
+            _logger.LogInformation("EmailSenderWorkerService đã khởi động. MaxConcurrency: {MaxConcurrency}",
                 _maxConcurrency);
 
             var tasks = new List<Task>();

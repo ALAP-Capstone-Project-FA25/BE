@@ -1,7 +1,7 @@
 using ALAP.Entity.Common;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     [Table("UserKnowledgeProgress")]
     public class UserKnowledgeProgressModel : BaseEntity

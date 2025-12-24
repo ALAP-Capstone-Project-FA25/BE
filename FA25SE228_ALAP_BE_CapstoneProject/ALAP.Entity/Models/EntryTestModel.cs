@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     [Table("EntryTests")]
     public class EntryTestModel : BaseEntity

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Entity.Models
+namespace ALAP.Entity.Models
 {
     public class PackageModel : BaseEntity
     {
