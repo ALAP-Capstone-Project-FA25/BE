@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using ALAP.Entity.Models.Wapper;
+using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

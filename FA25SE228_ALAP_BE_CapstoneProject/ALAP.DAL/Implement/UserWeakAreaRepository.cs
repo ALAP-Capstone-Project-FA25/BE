@@ -1,10 +1,10 @@
 using ALAP.DAL;
 using ALAP.DAL.Database;
+using ALAP.DAL.Interface;
 using ALAP.Entity.Models;
-using App.DAL.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class UserWeakAreaRepository : AppBaseRepository, IUserWeakAreaRepository
     {

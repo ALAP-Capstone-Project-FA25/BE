@@ -1,5 +1,5 @@
 using ALAP.BLL.Interface;
-using ALAP.DAL.DataBase;
+using ALAP.DAL.Database;
 using ALAP.Entity.DTO.Request;
 using ALAP.Entity.DTO.Response;
 using ALAP.Entity.Models;
@@ -423,7 +423,7 @@ namespace ALAP.BLL.Implement
             return true;
         }
 
-        public async Task<bool> ImportKnowledgeGraph(App.Entity.DTO.Request.ImportKnowledgeGraphDto dto)
+        public async Task<bool> ImportKnowledgeGraph(ALAP.Entity.DTO.Request.ImportKnowledgeGraphDto dto)
         {
             return await TransactionAsync(async () =>
             {

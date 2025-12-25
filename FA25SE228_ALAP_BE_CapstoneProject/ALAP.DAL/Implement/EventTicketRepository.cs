@@ -2,10 +2,10 @@ using ALAP.DAL;
 using ALAP.DAL.Database;
 using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
-using App.DAL.Interface;
+using ALAP.DAL.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class EventTicketRepository : AppBaseRepository, IEventTicketRepository
     {

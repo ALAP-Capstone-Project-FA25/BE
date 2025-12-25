@@ -9,6 +9,6 @@ namespace ALAP.BLL.Interface
         Task<bool> UpdateNodeProgress(long userId, long nodeId, int progressPercent);
         Task<bool> MarkNodeAsCompleted(long userId, long nodeId);
         Task<bool> StartNode(long userId, long nodeId);
-        Task<bool> ImportKnowledgeGraph(App.Entity.DTO.Request.ImportKnowledgeGraphDto dto);
+        Task<bool> ImportKnowledgeGraph(ALAP.Entity.DTO.Request.ImportKnowledgeGraphDto dto);
     }
 }

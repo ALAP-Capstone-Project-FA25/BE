@@ -1,14 +1,13 @@
-﻿using App.DAL.Interface;
+﻿using ALAP.DAL.Interface;
 using MailKit.Security;
 using Microsoft.Extensions.Options;
 using MimeKit;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Logging;
-using ALAP.DAL.Interface;
 using ALAP.Entity.Models.Enums;
 
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class EmailService : IEmailService
     {
