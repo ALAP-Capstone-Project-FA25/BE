@@ -41,6 +41,7 @@ namespace ALAP.BLL.Interface
         Task<UserTokenResponse> LoginEvent(UserLoginRequestDTO dto);
         Task<string> CreateUserGoogle(UserLoginGoogleDTO dto);
         Task<UserModel> CreateSpeaker(CreateSpeakerRequestDTO dto);
+        Task<UserModel> CreateMentor(CreateMentorRequestDTO dto);
         Task<object> GetSpeakerDetails(long speakerId);
         Task<UserModel> UpdateProfile(int userId, UpdateProfileDTO dto);
 
