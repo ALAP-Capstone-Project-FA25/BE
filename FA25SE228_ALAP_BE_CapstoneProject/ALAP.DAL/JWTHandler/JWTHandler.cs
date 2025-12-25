@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
-namespace EventZ.API.MiddleWare
+namespace ALAP.API.MiddleWare
 {
     public static class JWTHandler
     {

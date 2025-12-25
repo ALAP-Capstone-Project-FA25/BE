@@ -1,10 +1,10 @@
 ﻿using ALAP.Entity.DTO;
 using ALAP.Entity.DTO.Request;
 using ALAP.Entity.DTO.Response;
-using App.Entity.Models;
+using ALAP.Entity.Models;
 using AutoMapper;
 
-namespace EventZ.Mappings
+namespace ALAP.Mappings
 {
     public class AutoMapperProfiles : Profile
     {

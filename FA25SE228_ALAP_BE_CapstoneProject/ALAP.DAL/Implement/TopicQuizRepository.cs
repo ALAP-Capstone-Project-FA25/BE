@@ -1,9 +1,10 @@
 using ALAP.DAL;
 using ALAP.DAL.Database;
+using ALAP.DAL.Interface;
 using ALAP.Entity.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class TopicQuizRepository : AppBaseRepository, ITopicQuizRepository
     {

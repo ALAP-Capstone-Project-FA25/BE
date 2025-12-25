@@ -2,7 +2,7 @@ using ALAP.Entity.DTO.Response;
 using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
 
-namespace App.DAL.Interface
+namespace ALAP.DAL.Interface
 {
     public interface ITopicRepository
     {

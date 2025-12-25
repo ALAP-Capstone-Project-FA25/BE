@@ -1,6 +1,6 @@
 using ALAP.BLL.Interface;
 using ALAP.DAL;
-using ALAP.DAL.DataBase;
+using ALAP.DAL.Database;
 using ALAP.DAL.Interface;
 using ALAP.Entity.Models;
 using ALAP.Entity.Models.Enums;

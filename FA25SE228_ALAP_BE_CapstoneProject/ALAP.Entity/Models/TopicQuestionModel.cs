@@ -11,8 +11,14 @@ namespace ALAP.Entity.Models
         public string Question { get; set; } = string.Empty;
         public int MaxChoices { get; set; } = 1;
 
+        [ForeignKey("ReferrerLesson")]
+        public long? ReferrerLessonId { get; set; }
+
         [JsonIgnore]
         public virtual TopicModel Topic { get; set; } = null!;
+
+        [JsonIgnore]
+        public virtual LessonModel ReferrerLesson { get; set; } = null;
 
         public virtual ICollection<TopicQuestionAnswerModel> TopicQuestionAnswers { get; set; } = new List<TopicQuestionAnswerModel>();
     }

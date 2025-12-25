@@ -134,6 +134,11 @@ namespace ALAP.BLL.Implement
             return await _iidentityRepository.CreateSpeaker(dto);
         }
 
+        public async Task<UserModel> CreateMentor(CreateMentorRequestDTO dto)
+        {
+            return await _iidentityRepository.CreateMentor(dto);
+        }
+
         public async Task<object> GetSpeakerDetails(long speakerId)
         {
             return await _iidentityRepository.GetSpeakerDetails(speakerId);

@@ -3,7 +3,7 @@ using ALAP.DAL.Interface;
 using ALAP.Entity.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class KGRepository : IKGRepository
     {

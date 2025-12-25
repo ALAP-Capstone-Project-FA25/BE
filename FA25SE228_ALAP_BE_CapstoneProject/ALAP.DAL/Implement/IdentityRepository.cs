@@ -8,7 +8,7 @@ using ALAP.Entity.Models;
 using ALAP.Entity.Models.Enums;
 using ALAP.Entity.Models.Wapper;
 using Base.Common;
-using EventZ.API.MiddleWare;
+using ALAP.API.MiddleWare;
 using Google.Authenticator;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -22,7 +22,7 @@ using System.Text;
 using System.Transactions;
 using static QRCoder.PayloadGenerator;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class IdentityRepository : AppBaseRepository, IIdentityRepository
     {
