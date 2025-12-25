@@ -6,7 +6,7 @@ using ALAP.DAL.Interface;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class CategoryRepository : AppBaseRepository, ICategoryRepository
     {

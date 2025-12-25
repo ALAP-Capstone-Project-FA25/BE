@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using ALAP.Entity.Models;
 using ALAP.Entity.DTO.Request;
 
-namespace App.BLL.Interface
+namespace ALAP.BLL.Interface
 {
 	public interface IUserTopicProgressBizLogic
 	{

@@ -1,11 +1,11 @@
 using ALAP.DAL;
 using ALAP.DAL.Database;
+using ALAP.DAL.Interface;
 using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
-using App.DAL.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class LessonNoteRepository : AppBaseRepository, ILessonNoteRepository
     {

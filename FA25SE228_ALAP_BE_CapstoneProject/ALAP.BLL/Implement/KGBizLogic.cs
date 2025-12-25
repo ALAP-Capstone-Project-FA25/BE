@@ -1,7 +1,7 @@
 ﻿// App.BizLogic/Implement/KGBizLogic.cs
 using ALAP.BLL;
 using ALAP.BLL.Interface;
-using ALAP.DAL.DataBase;
+using ALAP.DAL.Database;
 using ALAP.DAL.Interface;
 using ALAP.Entity.DTO.KnowledgeGraph;
 using ALAP.Entity.Models;

@@ -22,7 +22,7 @@ using System.Text;
 using System.Transactions;
 using static QRCoder.PayloadGenerator;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class IdentityRepository : AppBaseRepository, IIdentityRepository
     {

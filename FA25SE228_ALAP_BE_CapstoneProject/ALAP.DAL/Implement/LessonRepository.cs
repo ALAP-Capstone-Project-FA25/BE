@@ -5,7 +5,7 @@ using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class LessonRepository : AppBaseRepository, ILessonRepository
     {

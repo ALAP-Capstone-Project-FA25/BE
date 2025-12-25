@@ -1,10 +1,11 @@
 using ALAP.DAL;
 using ALAP.DAL.Database;
+using ALAP.DAL.Interface;
 using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class LoginHistoryRepository : AppBaseRepository, ILoginHistoryRepository
     {

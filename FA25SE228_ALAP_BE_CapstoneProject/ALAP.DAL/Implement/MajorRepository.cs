@@ -5,7 +5,7 @@ using ALAP.Entity.Models;
 using ALAP.Entity.Models.Wapper;
 using ALAP.DAL.Interface;
 
-namespace App.DAL.Implement
+namespace ALAP.DAL.Implement
 {
     public class MajorRepository : AppBaseRepository, IMajorRepository
     {
