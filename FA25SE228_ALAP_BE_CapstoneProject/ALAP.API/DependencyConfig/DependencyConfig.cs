@@ -5,10 +5,10 @@ using ALAP.BLL.Interface;
 using ALAP.DAL.Database;
 using ALAP.DAL.Implement;
 using ALAP.DAL.Interface;
-using EventZ.API.MiddleWare;
+using ALAP.API.MiddleWare;
 using System.ComponentModel;
 
-namespace EventZ.API.DependencyConfig
+namespace ALAP.API.DependencyConfig
 {
     public class DependencyConfig
     {

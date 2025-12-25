@@ -4,7 +4,7 @@ using ALAP.Entity.DTO.Response;
 using ALAP.Entity.Models;
 using AutoMapper;
 
-namespace EventZ.Mappings
+namespace ALAP.Mappings
 {
     public class AutoMapperProfiles : Profile
     {

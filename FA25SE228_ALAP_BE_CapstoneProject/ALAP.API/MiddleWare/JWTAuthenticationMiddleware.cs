@@ -5,7 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 
-namespace EventZ.API.MiddleWare
+namespace ALAP.API.MiddleWare
 {
     public class JWTAuthenticationMiddleware(IConfiguration _configuration) : IMiddleware
     {
