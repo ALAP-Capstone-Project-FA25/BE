@@ -5,7 +5,7 @@ using ALAP.Entity.DTO.Request;
 using ALAP.Entity.DTO.Response;
 using ALAP.Entity.Models.Wapper;
 using Base.API;
-using EventZ.API.MiddleWare;
+using ALAP.API.MiddleWare;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication;

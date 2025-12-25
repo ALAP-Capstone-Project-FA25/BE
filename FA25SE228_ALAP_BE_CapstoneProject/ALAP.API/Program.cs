@@ -2,8 +2,8 @@ using ALAP.BLL.Helper;
 using ALAP.BLL.BackgroundServices;
 using ALAP.DAL.Database;
 using ALAP.Entity.Models.Enums;
-using EventZ.API.MiddleWare;
-using EventZ.Mappings;
+using ALAP.API.MiddleWare;
+using ALAP.Mappings;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
@@ -21,7 +21,7 @@ using ALAP.BLL.Helper;
 using ALAP.DAL.Database;
 using ALAP.Entity.Models.Enums;
 using static QRCoder.PayloadGenerator;
-namespace EventZ.API
+namespace ALAP.API
 {
     public class Program
     {

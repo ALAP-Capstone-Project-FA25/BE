@@ -8,7 +8,7 @@ using ALAP.Entity.Models;
 using ALAP.Entity.Models.Enums;
 using ALAP.Entity.Models.Wapper;
 using Base.Common;
-using EventZ.API.MiddleWare;
+using ALAP.API.MiddleWare;
 using Google.Authenticator;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
